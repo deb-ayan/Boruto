@@ -7,6 +7,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.navArgument
 import com.ayan.boruto.presentation.screens.SplashScreen
+import com.ayan.boruto.presentation.screens.WelcomeScreen
 import com.ayan.boruto.util.Constant.DETAILS_NAV_ARG
 
 
@@ -19,10 +20,10 @@ fun SetupNavGraph(
         startDestination = Screens.Splash.route
     ){
         composable(route = Screens.Splash.route){
-            SplashScreen()
+            SplashScreen(navController)
         }
         composable(route = Screens.Welcome.route){
-
+            WelcomeScreen()
         }
         composable(route = Screens.Home.route){
 

@@ -6,6 +6,7 @@ import androidx.activity.compose.setContent
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.rememberNavController
 import com.ayan.boruto.navigation.SetupNavGraph
+import com.ayan.boruto.presentation.screens.WelcomeScreen
 import com.ayan.boruto.ui.theme.BorutoTheme
 import dagger.hilt.android.AndroidEntryPoint
 
